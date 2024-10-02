@@ -81,7 +81,11 @@ namespace AppRpgEtec.ViewModels.Usuarios
                     Preferences.Set("UsuarioUsername", uAutenticado.Username);
                     Preferences.Set("UsuarioPerfil", uAutenticado.Perfil);
 
-                    Application.Current.MainPage = new ListagemView();
+                    //Application.Current.MainPage = new ListagemView();
+
+                    await Application.Current.MainPage.DisplayAlert("Informação", mensagem, "Ok");
+
+                    Application.Current.MainPage = new AppShell();
                 }
                 else
                 {

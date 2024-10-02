@@ -20,4 +20,9 @@ public partial class ListagemView : ContentPage
         base.OnAppearing();
 		_=viewModel.ObterPersonagens();
     }
+
+    private void Button_DescendantAdded(object sender, ElementEventArgs e)
+    {
+
+    }
 }

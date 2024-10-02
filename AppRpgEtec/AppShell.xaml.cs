@@ -11,10 +11,6 @@ namespace AppRpgEtec
             InitializeComponent();
 
             Routing.RegisterRoute("cadPersonagemView", typeof(CadastroPersonagemView));
-           // Routing.RegisterRoute("ListagemView", typeof(ListagemView));
-
-            //viewModel = new AppShellViewModel();
-            //BindingContext = viewModel;
         }
     }
 }
