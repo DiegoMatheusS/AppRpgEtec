@@ -16,7 +16,7 @@
                         <ViewCell>
                             <ViewCell.ContextActions>
                                 <MenuItem Text="Remover" IsDestructive="True"
-                                          Command="{Binding Path=BindingContex.RemoverPersonagemCommand, Source={x:Reference listView}}"
+                                          Command="{Binding Path=BindingContext.RemoverPersonagemCommand, Source={x:Reference listView}}"
                                           CommandParameter="{Binding .}"></MenuItem>
                             </ViewCell.ContextActions>
                             <StackLayout Padding="10">
