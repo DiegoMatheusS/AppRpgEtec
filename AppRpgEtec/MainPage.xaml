@@ -65,7 +65,9 @@
             </ScrollView>
             <HorizontalStackLayout Margin="10,100">
                 <Image Source="exit.svg" WidthRequest="50"/>
-                <Label Text="Sair" Margin="10,0,0,0" VerticalTextAlignment="Center" />
+                
+                
+                
             </HorizontalStackLayout>
         </VerticalStackLayout>
     </ContentPage.Content>

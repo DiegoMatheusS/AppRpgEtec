@@ -29,7 +29,7 @@
             HorizontalOptions="Center"
             Spacing="20"
             Margin="30">
-            <Label Text="Não possui login?"></Label>
+            <Label Text="Cadastre-se já"></Label>
             <HorizontalStackLayout.GestureRecognizers>
                 <TapGestureRecognizer Command="{Binding DirecionarCadastroCommand}">
                 </TapGestureRecognizer>
