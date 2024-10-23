@@ -76,12 +76,10 @@ namespace AppRpgEtec.ViewModels.Usuarios
                 if (!string.IsNullOrEmpty(uAutenticado.Token))
                 {
                     string mensagem = $"Bem-vindo {u.Username}";
-                    Preferences.Set("UsuarioToken", uAutenticado.Token);
                     Preferences.Set("UsuarioId", uAutenticado.Id);
                     Preferences.Set("UsuarioUsername", uAutenticado.Username);
                     Preferences.Set("UsuarioPerfil", uAutenticado.Perfil);
-
-                    //Application.Current.MainPage = new ListagemView();
+                    Preferences.Set("UsuarioToken", uAutenticado.Token);
 
                     await Application.Current.MainPage.DisplayAlert("Informação", mensagem, "Ok");
 

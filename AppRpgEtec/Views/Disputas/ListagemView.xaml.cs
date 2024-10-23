@@ -1,6 +1,6 @@
 using AppRpgEtec.ViewModels.Personagens;
 
-namespace AppRpgEtec.Views.Personagens;
+namespace AppRpgEtec.Views.Disputas;
 
 public partial class ListagemView : ContentPage
 {
@@ -10,7 +10,7 @@ public partial class ListagemView : ContentPage
 	{
 		InitializeComponent();
 
-        viewModel = new ListagempersonagemViewModel();
+		viewModel = new ListagempersonagemViewModel();
 		BindingContext = viewModel;
 		Title = "Personagens - App Rpg Etec";
 	}
